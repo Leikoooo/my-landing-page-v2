@@ -1,0 +1,38 @@
+
+.blockTitle{
+    display: flex;
+    color: azure;
+    flex-shrink: 0;
+    margin: 2rem;
+    font-size: 3rem;
+    font-style: normal;
+    line-height: normal;
+}
+
+
+.cell {
+    --cell-gap: 1.2rem;
+    aspect-ratio: 1 / 1;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    background: rgba(0, 0, 0, 0.29);
+    margin: 0;
+    width: calc(((70vw) - (10 * var(--cell-gap))) / 9);
+    min-width: 5rem;
+}
+
+
+.board {
+    --cell-gap: 1.2rem;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    border-radius: 2.1875rem;
+    background: gray;
+    color: wheat;
+    justify-content: stretch;
+    align-items: stretch;
+    gap: var(--cell-gap);
+    padding: var(--cell-gap);
+}
