@@ -1,12 +1,81 @@
+@font-face{
+    font-family: 'Koulen';
+    src: url('../../../public/fonts/Koulen/Koulen-Regular.ttf');
+}
 
+.points svg{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50vw;
+}
 
-.FirstScreen {
+.lline svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40vw;
+}
+
+.rline svg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50vw;
+}
+
+.firstScreen {
     display: flex;
-    color: azure;
-    font-size: 190px;
+    width: 100vw;
     justify-content: center;
-    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
     border-bottom: 2px;
     border-color: azure;
-    margin-bottom: 20px;
+    width: 80vw;
+}
+
+.frog {
+    margin: 0 1.7rem 0 8vw;
+    z-index: -1;
+    align-items: center;
+    display: flex;
+    width: calc(1rem + 24vw);
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.firstScreen h1{
+    width: 100%;
+    margin-top: 12vh;
+    display:inline-block;
+    font-family: Koulen;
+    font-size: calc(1rem + 9vw);
+    font-style: normal;
+    font-weight: 400;
+    line-height: calc(1rem + 9vw);
+}
+
+.title1 {
+    color: #E2E2E2;
+}
+
+.title2 {
+    -webkit-text-stroke-color: var(--Color, #FFF);
+    -webkit-text-stroke-width: 3px;
+}
+
+.title3 {
+    color: #E2E2E2;
+    margin: 0 0 0 22vw;
 }

@@ -1,0 +1,24 @@
+.Header img{
+    display: flex;
+    z-index: -1;
+    margin: 20px auto;
+}
+
+.Header {
+    display: block;
+    width: 100%;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.socialsBlock {
+    position: absolute;
+    right: 20px;
+    top: 24px;
+    display: flex;
+}
+
+.socialsBlock img{
+    margin-top: 0;
+}
+

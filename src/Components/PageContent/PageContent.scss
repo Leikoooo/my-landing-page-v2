@@ -1,0 +1,21 @@
+.pageContent {
+  height: 1080px;
+  width: 70vw;
+  min-width: 60rem;
+}
+
+.pageContent span {
+  display: flex;
+  justify-content: center;
+}
+
+.blockTitle {
+  display: block;
+  width: 100%;
+  display:inline-block;
+  font-family: Koulen;
+  font-size: calc(1rem + 6vw);
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+}

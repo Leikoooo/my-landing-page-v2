@@ -1,15 +1,19 @@
 import './App.css';
 import FirstScreen from './Components/FirstScreen/FirstScreen';
-import MyStack from './Components/MyStack/MyStack';
+import Footer from './Components/Footer/Footer';
+import Socials from './Components/Socials/Socials';
+import PageContent from './Components/PageContent/PageContent';
+import Separator from './Components/Separator/Separator';
 
 
 function App() {
   return (
     <div className="App">
         <FirstScreen/>
-      <div className="Screen">
-        <MyStack/>
-      </div>
+        <Separator TextLine={"WEB DEVELOPERㅤ"}/>
+        <PageContent PageTitle={'Code it, test it, ship it.'}/>
+        <Footer/>
+        <Socials/>
     </div>
   );
 }

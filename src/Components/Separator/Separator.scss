@@ -1,0 +1,35 @@
+.separator {
+  border-bottom: 1px solid #eaecef;
+  background-color: white;
+  height: 40px;
+  width: 100vw;
+  margin: 30px 0 30px 0;
+  align-items: center;
+  overflow: hidden;
+}
+
+.separator__wave {
+  height: 100%;
+  width: 100vw;
+  align-items: center;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  white-space: nowrap;
+  font-family: Koulen;
+  font-size: 20px;
+  animation: marquee 17s infinite linear;
+  width: 100vw;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-109%);
+  }
+}

@@ -1,18 +1,37 @@
 import './MyStack.scss';
-import Cell from "./Cell";
 
-const GRID_SIZE = 4
-const CELL_SIZE = 20
-const CELL_GAP = 2
 export default function Board() {
-    const cells = []
-    for (let i =0; i < 27; i++ ){
-        cells.push(<Cell/>)
-    }
 
     return (
         <div className="board">
-            {cells}
+            <span className="cell">
+                <img className='image' src={'images/Node.svg'} alt="Node"/>
+            </span>
+            <span className="cell">
+                <img className='image' src={'images/Sqlite.svg'} alt="Sqlite"/>
+            </span>
+            <span className="cell">
+                <img className='image' src={'images/Go.svg'} alt="Go"/>
+            </span>
+            <span className="cell">
+                <img className='image' src={'images/Ts.svg'} alt="Vue"/>
+            </span>
+            <span className="cell">
+                <img className='image' src={'images/Mysql.svg'} alt="Mysql"/>
+            </span>
+            <span className="cell">
+                <img className='image' src={'images/Next.svg'} alt="Next"/>
+            </span>
+            <span className="cell">
+                <img className='image' src={'images/Docker.svg'} alt="Docker"/>
+            </span>
+            <span className="cell">
+                <img className='image' src={'images/Oracle.svg'} alt="Oracle"/>
+            </span>
+            <span className="cell">
+                <img className='image' src={'images/Python.svg'} alt="Python"/>
+            </span>
+
         </div>
     )
 }
