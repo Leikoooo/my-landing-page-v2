@@ -4,6 +4,7 @@ import Footer from './Components/Footer/Footer';
 import Socials from './Components/Socials/Socials';
 import PageContent from './Components/PageContent/PageContent';
 import Separator from './Components/Separator/Separator';
+import MyStack from './Components/MyStack/MyStack'
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
     <div className="App">
         <FirstScreen/>
         <Separator TextLine={"WEB DEVELOPERㅤ"}/>
-        <PageContent PageTitle={'Code it, test it, ship it.'}/>
+        <PageContent PageTitle={'Code it, test it, ship it.'} Component={MyStack}/>
         <Footer/>
         <Socials/>
     </div>

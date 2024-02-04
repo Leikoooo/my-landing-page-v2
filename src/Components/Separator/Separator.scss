@@ -21,8 +21,8 @@
   white-space: nowrap;
   font-family: Koulen;
   font-size: 20px;
-  animation: marquee 17s infinite linear;
-  width: 100vw;
+  animation: marquee 25s infinite linear;
+  width: 104vw;
 }
 
 @keyframes marquee {
@@ -30,6 +30,6 @@
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(-109%);
+    transform: translateX(-110%);
   }
 }

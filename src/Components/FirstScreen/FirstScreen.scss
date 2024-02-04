@@ -1,6 +1,11 @@
 @font-face{
     font-family: 'Koulen';
-    src: url('../../../public/fonts/Koulen/Koulen-Regular.ttf');
+    src: url('../../../public/fonts/Koulen-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Gilroy';
+    src: url('../../../public/fonts/Gilroy-Light.otf');
 }
 
 .points svg{
@@ -24,6 +29,7 @@
     top: 0;
     right: 0;
     width: 50vw;
+    height: 60vh;
 }
 
 .firstScreen {
@@ -39,6 +45,8 @@
     border-bottom: 2px;
     border-color: azure;
     width: 80vw;
+    margin-bottom: 17vh;
+
 }
 
 .frog {
@@ -46,7 +54,7 @@
     z-index: -1;
     align-items: center;
     display: flex;
-    width: calc(1rem + 24vw);
+    width: calc(1rem + 20vw);
 }
 
 .middle {
@@ -57,14 +65,21 @@
 }
 
 .firstScreen h1{
+    display: inline-flex;
+    flex-direction: column;
     width: 100%;
-    margin-top: 12vh;
-    display:inline-block;
     font-family: Koulen;
-    font-size: calc(1rem + 9vw);
+    font-size: calc(8vw);
     font-style: normal;
     font-weight: 400;
-    line-height: calc(1rem + 9vw);
+    line-height: calc(8vw);
+}
+
+.title0 {
+    font-size: calc(1vw);
+    line-height: calc(10px);
+    font-family: Gilroy;
+    color: #88FFFA;
 }
 
 .title1 {

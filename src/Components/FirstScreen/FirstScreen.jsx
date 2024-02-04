@@ -14,6 +14,7 @@ export default function FirstScreen() {
             <div className="wrapper">
                 <Header/>
                 <h1>
+                    <span className={'title0'}>Разработчик из Санкт-Петербурга</span>
                     <span className={'title1'}>CREATE DIGITAL</span>
                     <div className="middle">
                         <img className={'frog'} src={'images/Frog.png'} alt="frog"/>
