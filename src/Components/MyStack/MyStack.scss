@@ -90,7 +90,7 @@ $bg-img: url("../../../public/images/backStack.svg");
 .board {
   --cell-gap: 2rem;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   border-radius: 2.1875rem;
   grid-gap: var(--cell-gap);
   padding: var(--cell-gap);
@@ -101,5 +101,5 @@ $bg-img: url("../../../public/images/backStack.svg");
   font-family: Gilroy-Medium;
   margin: 0;
   width: 100%;
-  font-size: clamp(16px, 4vw, 27px);
+  font-size: clamp(12px, 4vw, 20px);
 }
