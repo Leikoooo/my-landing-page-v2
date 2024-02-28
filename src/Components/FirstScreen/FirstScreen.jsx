@@ -3,14 +3,16 @@ import Header from '../Header/Header';
 import Points from './Points';
 import RLine from './RLine';
 import LLine from './LLine';
+import Separator from '../Separator/Separator';
 
 
 export default function FirstScreen() {
     return (
         <div className="firstScreen">
+            <div className="bg"></div>
+            <img className={'bgImage'} src={'images/bg2.png'} alt="bgImage"/>
             <RLine/>
-            <LLine/>
-            <Points/>
+
             <div className="wrapper">
                 <Header/>
                 <h1>
@@ -23,6 +25,7 @@ export default function FirstScreen() {
                     <span className={'title3'}>WITH ME</span>
                 </h1>
             </div>
+            <Separator TextLine={"WEB DEVELOPER ㅤ"}/>
         </div>
     )
 }

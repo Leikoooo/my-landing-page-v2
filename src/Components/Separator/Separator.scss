@@ -1,6 +1,9 @@
 .separator {
   background-color: white;
-  margin: 30px 0 30px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  overflow: hidden;
 }
 
 .line {

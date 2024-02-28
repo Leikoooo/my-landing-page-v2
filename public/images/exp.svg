@@ -1,0 +1,21 @@
+<svg width="136" height="26" viewBox="0 0 136 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="131" cy="21" r="5" fill="white"/>
+<circle cx="117" cy="8" r="4" fill="white"/>
+<circle cx="130" cy="3" r="3" fill="white"/>
+<circle cx="107" cy="16" r="3" fill="white"/>
+<circle cx="106.5" cy="15.5" r="1.5" fill="#F2F2F2"/>
+<circle cx="106.5" cy="15.5" r="1.5" fill="black"/>
+<circle cx="116.5" cy="7.5" r="2.5" fill="#F2F2F2"/>
+<circle cx="116.5" cy="7.5" r="2.5" fill="black"/>
+<circle cx="129.5" cy="2.5" r="1.5" fill="#F2F2F2"/>
+<circle cx="129.5" cy="2.5" r="1.5" fill="black"/>
+<circle cx="130.5" cy="19.5" r="2.5" fill="#F2F2F2"/>
+<circle cx="130.5" cy="19.5" r="2.5" fill="black"/>
+<path d="M96 18.5H3C1.89543 18.5 1 17.6046 1 16.5V15C1 13.8954 1.89543 13 3 13H96C97.1046 13 98 13.8954 98 15V16.5C98 17.6046 97.1046 18.5 96 18.5Z" stroke="white"/>
+<path d="M69 17C63 17 61.1667 14.6667 61 13.5H59V17H69Z" fill="white" stroke="white"/>
+<path d="M4 13H61V19H4L1.5 17.5V14L2.5 13H4Z" fill="white"/>
+<rect x="60" y="16" width="38" height="3" fill="white"/>
+<path d="M98 12V14V17.5V19.5C98 20.0523 98.4477 20.5 99 20.5H100C100.552 20.5 101 20.0523 101 19.5V12C101 11.4477 100.552 11 100 11H99C98.4477 11 98 11.4477 98 12Z" fill="white" stroke="white"/>
+<path d="M97.2177 12.4962C96.64 12.8816 95.9188 13 95.5 13H97.7906C97.9062 13 98 12.9062 98 12.7906C98 12.553 97.4153 12.3643 97.2177 12.4962Z" stroke="white"/>
+<path d="M96.8044 18.8516C96.091 18.3783 95.2807 18 95 18L97.677 18C97.8554 18 98 18.1446 98 18.323C98 18.6786 97.1007 19.0482 96.8044 18.8516Z" stroke="white"/>
+</svg>

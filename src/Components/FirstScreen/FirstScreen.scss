@@ -10,10 +10,8 @@
 
 .points svg{
     position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 50vw;
-    height: 50vh;
+    right: 10px;
+    bottom: 10px;
 }
 
 .lline svg{
@@ -35,7 +33,29 @@
 .firstScreen {
     display: flex;
     width: 100vw;
+    height: 100vh;
     justify-content: center;
+    overflow-x: hidden;
+
+}
+
+.bg {
+    position: absolute;
+    opacity: 0.2;
+    width: 100vw;
+    height: 100%;
+    z-index: -2;
+    background-image: url("../../../public/images/background4k.jpg");
+}
+
+.bgImage {
+    position: absolute;
+    opacity: 0.1;
+    height: 40%;
+    z-index: -1;
+    left: 0;
+    bottom: 0;
+    background-size:contain;
 }
 
 .wrapper {
@@ -88,7 +108,8 @@
 
 .title2 {
     -webkit-text-stroke-color: var(--Color, #FFF);
-    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-width: 2px;
+    color: #000;
 }
 
 .title3 {
