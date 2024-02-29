@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61b67035-961e-4919-a7e3-00e2d4963761" name="Changes" comment="my stack new">
-      <change afterPath="$PROJECT_DIR$/src/Components/WorkWithMe/WorkWithMe.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/WorkWithMe/WorkWithMe.scss" afterDir="false" />
+    <list default="true" id="61b67035-961e-4919-a7e3-00e2d4963761" name="Changes" comment="work with me block">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/AboutMe/AboutMe.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AboutMe/AboutMe.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/AboutMe/AboutMe.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AboutMe/AboutMe.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/FirstScreen/FirstScreen.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FirstScreen/FirstScreen.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MyStack/MyStack.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MyStack/MyStack.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/PageContent/PageContent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PageContent/PageContent.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Separator/Separator.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Separator/Separator.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/FirstScreen/FirstScreen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FirstScreen/FirstScreen.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +122,7 @@
       <workItem from="1708068151294" duration="3243000" />
       <workItem from="1708857706322" duration="913000" />
       <workItem from="1709141697590" duration="2134000" />
-      <workItem from="1709146503161" duration="8680000" />
+      <workItem from="1709146503161" duration="9312000" />
     </task>
     <task id="LOCAL-00001" summary="FirstScreen ready">
       <option name="closed" value="true" />
@@ -188,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709147861650</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="work with me block">
+      <option name="closed" value="true" />
+      <created>1709192144331</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709192144331</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +199,7 @@
     <MESSAGE value="stackblock" />
     <MESSAGE value="fixed" />
     <MESSAGE value="my stack new" />
-    <option name="LAST_COMMIT_MESSAGE" value="my stack new" />
+    <MESSAGE value="work with me block" />
+    <option name="LAST_COMMIT_MESSAGE" value="work with me block" />
   </component>
 </project>

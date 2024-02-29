@@ -1,8 +1,8 @@
 import './FirstScreen.scss';
 import Header from '../Header/Header';
-import Points from './Points';
+// import Points from './Points';
 import RLine from './RLine';
-import LLine from './LLine';
+// import LLine from './LLine';
 import Separator from '../Separator/Separator';
 
 

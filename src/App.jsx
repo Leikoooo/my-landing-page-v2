@@ -1,7 +1,6 @@
 import './App.css';
 import FirstScreen from './Components/FirstScreen/FirstScreen';
 
-import Socials from './Components/Socials/Socials';
 import PageContent from './Components/PageContent/PageContent';
 import MyStack from './Components/MyStack/MyStack'
 import AboutMe from './Components/AboutMe/AboutMe'
