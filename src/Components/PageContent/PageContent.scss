@@ -2,7 +2,7 @@
   width: 80vw;
   display: flex;
   justify-content: center;
-    align-items: center;
+  align-items: center;
   flex-direction: column;
 }
 
@@ -12,11 +12,20 @@
   font-style: normal;
   font-weight: 400;
   color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
 }
 
 .Content {
   padding-left: 2rem;
-    padding-right: 2rem;
+  padding-right: 2rem;
   width: 100%;
 }
 

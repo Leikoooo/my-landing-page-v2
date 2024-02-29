@@ -63,10 +63,9 @@ $bg-img: url("../../../public/images/backStack.svg");
 .gradient {
   background: radial-gradient(40rem at 10% 40%, rgba(139, 255, 250, 0.7) 0%, rgba(139, 255, 250, 0.7) 0%, rgba(139, 255, 250, 0.4) 0%, transparent);
   position: absolute;
-  width: 100vw;
+  width: 99vw;
   height: 400vh;
   z-index: -1;
-
 }
 
 .stars {
@@ -86,7 +85,7 @@ $bg-img: url("../../../public/images/backStack.svg");
 .board {
   --cell-gap: 2rem;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   border-radius: 2.1875rem;
   grid-gap: var(--cell-gap);
   padding: var(--cell-gap);

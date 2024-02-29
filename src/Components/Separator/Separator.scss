@@ -2,8 +2,7 @@
   background-color: white;
   position: absolute;
   bottom: 0;
-  width: 100vw;
-  overflow: hidden;
+  width: 99vw;
 }
 
 .line {
@@ -13,6 +12,10 @@
   font-size: 20px;
   animation: marquee 25s infinite linear;
   width: 104vw;
+}
+
+.separator__wave {
+  overflow-x: hidden;
 }
 
 @keyframes marquee {
