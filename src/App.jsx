@@ -10,23 +10,27 @@ import WorkWithMe from './Components/WorkWithMe/WorkWithMe'
 function App() {
     let title1 = () => {
         return (
-            <div className="pageTitle">Code it, test it, ship it.</div>
+            <div className="pageTitle">
+                <h2 className={'title1'}>Code it, test it, ship it.</h2>
+            </div>
         )
     };
 
     let title2 = () => {
         return (
             <div className="pageTitle">
-                <span className={'title2'}>Build your </span>
-                <span>dream with code.</span>
+                <h2>
+                    <span className={'title2'}>Build your </span>
+                    <span>dream with code.</span>
+                </h2>
             </div>
         )
     };
 
     let title3 = () => {
         return (
-            <div className="pageTitle">
-                <span>Work with me</span>
+            <div className="pageTitleWWM">
+                <h2>Work with me</h2>
                 <div className="links">
                     <a href="https://github.com/leikooo" target="_blank" rel="noreferrer">
                         <img style={{width: 20}} src="images/GithubDot.svg"

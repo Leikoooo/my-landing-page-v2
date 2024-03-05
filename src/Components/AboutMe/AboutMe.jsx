@@ -11,14 +11,14 @@ export default function AboutMe() {
                             <span>Skills</span>
                             <div className="subtitleAM">
                                 <h2>Python</h2>
-                                <p>Моим ключевым навыком является глубокое знание языка программирования Python и опыт
+                                <p>Моим ключевым навыком является отличное знание языка программирования Python и опыт
                                     создания разнообразных Telegram-ботов, включая проекты, связанные с автоматизацией
-                                    продаж и крипто-платежами
+                                    продаж и крипто-платежами.
                                 </p>
                             </div>
                             <div className="subtitleAM">
                                 <h2>Golang</h2>
-                                <p>Я знаком с работой API Telegram и умею работать с документацией</p>
+                                <p>Около года опыт создания и поддержки API </p>
                             </div>
                             <div className="subtitleAM">
                                 <h2>React</h2>

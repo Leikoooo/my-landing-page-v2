@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61b67035-961e-4919-a7e3-00e2d4963761" name="Changes" comment="work with me block">
+      <change afterPath="$PROJECT_DIR$/public/fonts/Seravek.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/link.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/FirstScreen/FirstScreen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FirstScreen/FirstScreen.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/AboutMe/AboutMe.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AboutMe/AboutMe.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/MyStack/MyStack.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MyStack/MyStack.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PageContent/PageContent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PageContent/PageContent.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/WorkWithMe/WorkWithMe.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/WorkWithMe/WorkWithMe.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/WorkWithMe/WorkWithMe.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/WorkWithMe/WorkWithMe.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,33 +45,34 @@
     <option name="showLibraryContents" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/leikooo/Desktop/my_business_card/src/Components/WorkWithMe",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.editor",
-    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/leikooo/Desktop/my_business_card/public/fonts/ABeeZee&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/Components/WorkWithMe" />
-      <recent name="$PROJECT_DIR$/public/fonts" />
+      <recent name="$PROJECT_DIR$/public/fonts/ABeeZee" />
       <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/public/fonts" />
+      <recent name="$PROJECT_DIR$/src/Components/WorkWithMe" />
       <recent name="$PROJECT_DIR$/public/fonts/Koulen" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/public/fonts" />
+      <recent name="$PROJECT_DIR$/public/images" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
@@ -122,7 +131,14 @@
       <workItem from="1708068151294" duration="3243000" />
       <workItem from="1708857706322" duration="913000" />
       <workItem from="1709141697590" duration="2134000" />
-      <workItem from="1709146503161" duration="9312000" />
+      <workItem from="1709146503161" duration="9549000" />
+      <workItem from="1709199518559" duration="4485000" />
+      <workItem from="1709214001463" duration="430000" />
+      <workItem from="1709319062966" duration="287000" />
+      <workItem from="1709319388328" duration="18473000" />
+      <workItem from="1709462872047" duration="15467000" />
+      <workItem from="1709561649075" duration="1789000" />
+      <workItem from="1709658204968" duration="417000" />
     </task>
     <task id="LOCAL-00001" summary="FirstScreen ready">
       <option name="closed" value="true" />
@@ -188,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709192144331</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="work with me block">
+      <option name="closed" value="true" />
+      <created>1709192272730</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709192272730</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

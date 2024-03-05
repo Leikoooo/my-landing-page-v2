@@ -1,21 +1,5 @@
 $bg-img: url("../../../public/images/backStack.svg");
 
-@font-face {
-  font-family: 'Gilroy-bold';
-  src: url('../../../public/fonts/Gilroy-ExtraBold.otf');
-}
-
-@font-face {
-  font-family: 'Gilroy-Medium';
-  src: url('../../../public/fonts/Gilroy-Medium.ttf');
-}
-
-@font-face {
-  font-family: 'Gilroy-Semibold';
-  src: url('../../../public/fonts/Gilroy-Semibold.ttf');
-}
-
-
 .blockTitle {
   font-family: Koulen;
   color: azure;
@@ -61,10 +45,10 @@ $bg-img: url("../../../public/images/backStack.svg");
 }
 
 .gradient {
-  background: radial-gradient(40rem at 10% 40%, rgba(139, 255, 250, 0.7) 0%, rgba(139, 255, 250, 0.7) 0%, rgba(139, 255, 250, 0.4) 0%, transparent);
+  background: radial-gradient(40rem at 10% 70%, rgba(139, 255, 250, 0.7) 0%, rgba(139, 255, 250, 0.7) 0%, rgba(139, 255, 250, 0.4) 0%, transparent);
   position: absolute;
   width: 99vw;
-  height: 400vh;
+  height: 300vh;
   z-index: -1;
 }
 

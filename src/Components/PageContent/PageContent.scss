@@ -6,21 +6,15 @@
   flex-direction: column;
 }
 
-.pageTitle {
-  font-family: Koulen;
+.pageTitle h2 {
   font-size: calc(1rem + 6vw);
   font-style: normal;
   font-weight: 400;
   color: white;
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
 }
 
-.links {
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
+.pageTitle h2 {
+  margin: 2rem 0 1rem 0;
 }
 
 .Content {
