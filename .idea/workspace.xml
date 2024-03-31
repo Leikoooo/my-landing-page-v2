@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61b67035-961e-4919-a7e3-00e2d4963761" name="Changes" comment="work with me block">
-      <change afterPath="$PROJECT_DIR$/public/fonts/Seravek.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/link.svg" afterDir="false" />
+    <list default="true" id="61b67035-961e-4919-a7e3-00e2d4963761" name="Changes" comment="some fix">
+      <change afterPath="$PROJECT_DIR$/public/fonts/Seravek Basic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/SeravekTest.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/SeravekTest.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/SeravekTest.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/rubic.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ABeeZee/ABeeZee-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ABeeZee/ABeeZee-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/Seravek.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/Seravek.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/AboutMe/AboutMe.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AboutMe/AboutMe.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MyStack/MyStack.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MyStack/MyStack.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/PageContent/PageContent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PageContent/PageContent.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/AboutMe/AboutMe.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AboutMe/AboutMe.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/WorkWithMe/WorkWithMe.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/WorkWithMe/WorkWithMe.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/WorkWithMe/WorkWithMe.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/WorkWithMe/WorkWithMe.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
@@ -47,25 +50,26 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/leikooo/Desktop/my_business_card/public/fonts/ABeeZee&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/leikooo/Documents/my_business_card/public/images&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/fonts/ABeeZee" />
       <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/public/fonts/ABeeZee" />
       <recent name="$PROJECT_DIR$/public/fonts" />
       <recent name="$PROJECT_DIR$/src/Components/WorkWithMe" />
       <recent name="$PROJECT_DIR$/public/fonts/Koulen" />
@@ -139,6 +143,15 @@
       <workItem from="1709462872047" duration="15467000" />
       <workItem from="1709561649075" duration="1789000" />
       <workItem from="1709658204968" duration="417000" />
+      <workItem from="1709668427460" duration="477000" />
+      <workItem from="1709742122265" duration="757000" />
+      <workItem from="1710006294856" duration="2466000" />
+      <workItem from="1710435514317" duration="1164000" />
+      <workItem from="1710437464861" duration="670000" />
+      <workItem from="1710439892385" duration="7581000" />
+      <workItem from="1711332885326" duration="1881000" />
+      <workItem from="1711402971995" duration="31000" />
+      <workItem from="1711905510258" duration="367000" />
     </task>
     <task id="LOCAL-00001" summary="FirstScreen ready">
       <option name="closed" value="true" />
@@ -212,18 +225,28 @@
       <option name="project" value="LOCAL" />
       <updated>1709192272730</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="some fix">
+      <option name="closed" value="true" />
+      <created>1709668601536</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709668601536</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="FirstScreen ready" />
     <MESSAGE value="stackblock" />
     <MESSAGE value="fixed" />
     <MESSAGE value="my stack new" />
     <MESSAGE value="work with me block" />
-    <option name="LAST_COMMIT_MESSAGE" value="work with me block" />
+    <MESSAGE value="some fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="some fix" />
   </component>
 </project>

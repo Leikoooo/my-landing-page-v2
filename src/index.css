@@ -1,10 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
   background-color: #000000;
 }
 
@@ -12,23 +8,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
-
 @font-face {
   font-family: 'Gilroy-bold';
   src: url('../public/fonts/Gilroy-ExtraBold.otf');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
   font-family: 'Gilroy-Medium';
   src: url('../public/fonts/Gilroy-Medium.ttf');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
   font-family: 'Gilroy-Semibold';
-  src: url('../public/fonts/Gilroy-Semibold.ttf');
+  src: url('../public/fonts/Gilroy-Semibold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
   font-family: 'Seravek';
-  src: url('../public/fonts/Seravek.ttf');
+  src: url('../public/fonts/Seravek.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }

@@ -32,16 +32,12 @@ export default function WorkWithMe() {
                         return (
                             <div className={'itemBorder'}>
                                 <div key={index} className="WWMItem">
-                                    <h2 className={"cardTitle"}>
-                                        <a href={item.link} target="_blank" rel="noreferrer">{item.title}</a>
-                                    </h2>
-                                    <p className={"cardDescription"}>{item.description}</p>
-                                    <div className="linkContent">
-                                        <a className={"cardLink"} href={item.link}
-                                           style={{display: item.link ? 'block' : 'none'}} target="_blank" rel="noreferrer">
-                                            <img src={'images/link.svg'} alt="arrow"/>
-                                        </a>
-                                    </div>
+                                    <a href={item.link} target="_blank" rel="noreferrer">
+                                        <h2 className={"cardTitle"}>
+                                            {item.title}
+                                        </h2>
+                                        <p className={"cardDescription"}>{item.description}</p>
+                                    </a>
                                 </div>
                             </div>
                         )
