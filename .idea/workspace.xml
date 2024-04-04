@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61b67035-961e-4919-a7e3-00e2d4963761" name="Changes" comment="some fix">
-      <change afterPath="$PROJECT_DIR$/public/fonts/Seravek Basic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/SeravekTest.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/SeravekTest.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/SeravekTest.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/rubic.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/ABeeZee/ABeeZee-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/ABeeZee/ABeeZee-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Seravek.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/Seravek.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/AboutMe/AboutMe.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AboutMe/AboutMe.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/AboutMe/AboutMe.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AboutMe/AboutMe.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/WorkWithMe/WorkWithMe.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/WorkWithMe/WorkWithMe.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/WorkWithMe/WorkWithMe.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/WorkWithMe/WorkWithMe.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +138,7 @@
       <workItem from="1710439892385" duration="7581000" />
       <workItem from="1711332885326" duration="1881000" />
       <workItem from="1711402971995" duration="31000" />
-      <workItem from="1711905510258" duration="367000" />
+      <workItem from="1711905510258" duration="2913000" />
     </task>
     <task id="LOCAL-00001" summary="FirstScreen ready">
       <option name="closed" value="true" />
@@ -233,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709668601536</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="some fix">
+      <option name="closed" value="true" />
+      <created>1711905936983</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1711905936983</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
