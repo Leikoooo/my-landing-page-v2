@@ -20,7 +20,8 @@
   height: 100%;
 }
 
-.WWMItem a {
+//.WWMItem a {
+.cardField {
   display: flex;
   font-size: 1em;
   color: black;
@@ -164,5 +165,9 @@
   height: 20px;
   gap: 1rem;
   margin-left: 1rem;
+}
+
+.links a:hover {
+    transform: scale(1.1);
 }
 

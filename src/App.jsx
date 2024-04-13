@@ -32,7 +32,7 @@ function App() {
             <div className="pageTitleWWM">
                 <h2>Work with me</h2>
                 <div className="links">
-                    <a href="https://github.com/leikooo" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/leikoooo" target="_blank" rel="noreferrer">
                         <img style={{width: 20}} src="images/GithubDot.svg"
                              alt="GithubDot"/>
                     </a>

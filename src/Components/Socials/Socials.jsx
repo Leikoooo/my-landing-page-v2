@@ -3,7 +3,7 @@ import './Socials.scss';
 export default function Socials() {
     return (
         <div className="socials">
-            <a href="https://github.com/leikooo" target="_blank" rel="noreferrer">
+            <a href="https://github.com/leikoooo" target="_blank" rel="noreferrer">
                 <img src="images/Github.svg" alt="Github"/>
             </a>
             <a href="https://t.me/leikooo" target="_blank" rel="noreferrer">

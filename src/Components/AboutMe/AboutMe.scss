@@ -1,7 +1,7 @@
 
 .titleAM span {
     color: #f5f5f5;
-    font-size: 2vw;
+    font-size: 3rem;
     font-weight: 400;
     margin: 0 20rem 0 3rem;
 }
@@ -23,7 +23,7 @@
 
 .aboutMeContainer p {
     color: #f5f5f5;
-    font-size: 1vw;
+    font-size: 2rem;
     font-weight: 400;
     margin: 0 0 0 4rem;
     font-family: Gilroy-Medium;
@@ -42,15 +42,16 @@
 }
 
 .SoftContainer {
-    height: 10rem;
     display: flex;
     border-color: #8BFFFA;
     border-width: 1px;
     border-style: solid;
     border-radius: 1rem;
     align-items: center;
-    padding:1rem;
+    padding:2rem 1rem 1.5rem 1rem;
     margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
 }
 
 .SoftContent span{
@@ -59,10 +60,11 @@
     -webkit-text-stroke-color: #8BFFFA;
     -webkit-text-stroke-width: 1px;
     line-height: 1rem;
+    margin: 0 0 0 1rem;
 }
 
 .SoftContent p{
-    margin: 0 0 0 1vw;
+    margin: 0 0 0 1.7rem;
 }
 
 .rightAM {
@@ -83,13 +85,13 @@
 
 @media screen and (max-width: 2000px) {
     .titleAM span {
-        font-size: 2.5vw; /* Увеличиваем размер шрифта заголовка */
+        font-size: 2.4rem; /* Увеличиваем размер шрифта заголовка */
         margin: 0 10rem 0 1rem; /* Меняем отступы */
     }
 
     .aboutMeContainer p {
         font-size: 1.5vw; /* Увеличиваем размер шрифта параграфов */
-        margin: 0 0 0 4rem; /* Меняем отступы */
+        margin: 0 0 0 2rem; /* Меняем отступы */
     }
 
     .aboutMeContainer h2 {
@@ -98,24 +100,24 @@
     }
 
     .SoftContent span {
-        font-size: 2.5vw; /* Увеличиваем размер шрифта заголовка */
+        font-size: 3rem; /* Увеличиваем размер шрифта заголовка */
     }
 
     .SoftContent p {
-        margin: 0 0 0 1vw; /* Меняем отступы */
+        margin: 0 0 0 1rem; /* Меняем отступы */
     }
 }
 
 
 @media screen and (max-width: 1300px) {
     .titleAM span {
-        font-size: 4vw; /* Увеличиваем размер шрифта заголовка */
+        font-size: 2.4rem; /* Увеличиваем размер шрифта заголовка */
         margin: 0 10rem 0 1rem; /* Меняем отступы */
     }
 
     .aboutMeContainer p {
         font-size: 2vw; /* Увеличиваем размер шрифта параграфов */
-        margin: 0 0 0 4rem; /* Меняем отступы */
+        margin: 0 0 0 2rem; /* Меняем отступы */
     }
 
     .aboutMeContainer h2 {

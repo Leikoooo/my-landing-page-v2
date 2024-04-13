@@ -38,7 +38,7 @@ export default function Board() {
                     <Star className='star' fill={true} color={"#35BF69"}/>
                     <Star className='star' fill={true} color={"#35BF69"}/>
                     <Star className='star' fill={true} color={"#35BF69"}/>
-                    <Star className='star' fill={false} color={"#35BF69"}/>
+                    <Star className='star' fill={true} color={"#35BF69"}/>
                     <Star className='star' fill={false} color={"#35BF69"}/>
                 </div>
             </div>
@@ -77,7 +77,7 @@ export default function Board() {
                     <Star className='star' fill={true} color={"#22C2F3"}/>
                     <Star className='star' fill={true} color={"#22C2F3"}/>
                     <Star className='star' fill={true} color={"#22C2F3"}/>
-                    <Star className='star' fill={true} color={"#22C2F3"}/>
+                    <Star className='star' fill={false} color={"#22C2F3"}/>
                     <Star className='star' fill={false} color={"#22C2F3"}/>
                 </div>
             </div>
@@ -117,7 +117,7 @@ export default function Board() {
                     <Star className='star' fill={true} color={"#375F93"}/>
                     <Star className='star' fill={true} color={"#375F93"}/>
                     <Star className='star' fill={true} color={"#375F93"}/>
-                    <Star className='star' fill={false} color={"#375F93"}/>
+                    <Star className='star' fill={true} color={"#375F93"}/>
                 </div>
             </div>
         </div>,
@@ -143,7 +143,7 @@ export default function Board() {
                     <Star className='star' fill={true} color={"#E24B45"}/>
                     <Star className='star' fill={true} color={"#E24B45"}/>
                     <Star className='star' fill={true} color={"#E24B45"}/>
-                    <Star className='star' fill={false} color={"#E24B45"}/>
+                    <Star className='star' fill={true} color={"#E24B45"}/>
                     <Star className='star' fill={false} color={"#E24B45"}/>
                 </div>
             </div>
@@ -168,7 +168,7 @@ export default function Board() {
                 <div className="stars">
                     <Star className='star' fill={true} color={"#65DA8D"}/>
                     <Star className='star' fill={true} color={"#65DA8D"}/>
-                    <Star className='star' fill={false} color={"#65DA8D"}/>
+                    <Star className='star' fill={true} color={"#65DA8D"}/>
                     <Star className='star' fill={false} color={"#65DA8D"}/>
                     <Star className='star' fill={false} color={"#65DA8D"}/>
                 </div>
@@ -195,13 +195,14 @@ export default function Board() {
                 <div className="stars">
                     <Star className='star' fill={true} color={"#4677B1"}/>
                     <Star className='star' fill={true} color={"#4677B1"}/>
-                    <Star className='star' fill={false} color={"#4677B1"}/>
+                    <Star className='star' fill={true} color={"#4677B1"}/>
                     <Star className='star' fill={false} color={"#4677B1"}/>
                     <Star className='star' fill={false} color={"#4677B1"}/>
                 </div>
             </div>
         </div>
     ]
+
 
     return (<div className="board">
         {mas.map((item) => item)}

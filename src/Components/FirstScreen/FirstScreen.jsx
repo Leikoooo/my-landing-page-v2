@@ -11,7 +11,7 @@ export default function FirstScreen() {
     return (
         <div className="firstScreen">
             <div className="firstScreenPC">
-                <div className="bg"></div>
+                {/*<div className="bg"></div>*/}
                 <RLine/>
                 <LLine/>
 

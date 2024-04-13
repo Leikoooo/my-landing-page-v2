@@ -9,6 +9,7 @@ export default function MyStack() {
                 <img src="images/MyStackPic.svg" alt="stack"/>
             </div>
             <Board/>
+            <span className={'caption'}>* Звезды показывают мою уверенность во владении технологией</span>
         </div>
     )
 }
