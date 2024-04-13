@@ -20,7 +20,7 @@ function App() {
         return (
             <div className="pageTitle">
                 <h2>
-                    <span className={'title2'}>Build your </span>
+                    <span className={'BYDWC'}>Build your </span>
                     <span>dream with code.</span>
                 </h2>
             </div>
@@ -50,7 +50,6 @@ function App() {
     return (
         <div className="App">
             <FirstScreen/>
-            <div className="gradient"></div>
             <PageContent PageTitle={title1} Component={MyStack}/>
             <PageContent PageTitle={title2} Component={AboutMe}/>
             <PageContent PageTitle={title3} Component={WorkWithMe}/>

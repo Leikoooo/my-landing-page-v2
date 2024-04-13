@@ -30,7 +30,7 @@
     height: 60vh;
 }
 
-.firstScreen {
+.firstScreenPC {
     display: flex;
     width: 100vw;
     height: 100vh;
@@ -48,15 +48,6 @@
     background-size: cover;
 }
 
-.bgImage {
-    position: absolute;
-    opacity: 0.1;
-    height: 40%;
-    z-index: -1;
-    left: 0;
-    bottom: 0;
-    background-size:contain;
-}
 
 .wrapper {
     display: flex;
@@ -67,6 +58,8 @@
     width: 80vw;
     margin-bottom: 17vh;
     max-width: 2000px;
+    min-width: 1000px;
+
 }
 
 .frog {
@@ -115,4 +108,11 @@
 .title3 {
     color: #E2E2E2;
     margin: 0 0 0 22vw;
+}
+
+
+
+
+.firstScreenMobile {
+    display: none;
 }
