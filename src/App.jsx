@@ -11,7 +11,7 @@ function App() {
     let title1 = () => {
         return (
             <div className="pageTitle">
-                <h2 className={'title1'}>Code it, test it, ship it.</h2>
+                <h2 className={'titleCTS'}>Code it, test it, ship it.</h2>
             </div>
         )
     };
