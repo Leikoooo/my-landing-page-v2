@@ -8,6 +8,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
+* {
+  font-family: Koulen;
+}
+
 @font-face {
   font-family: 'Gilroy-bold';
   src: url('../public/fonts/Gilroy-ExtraBold.otf');
