@@ -171,3 +171,56 @@
     transform: scale(1.1);
 }
 
+
+@media screen and (max-width: 869px) {
+  .WWMContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .WWMTitle {
+    margin-right: 0;
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+
+  .WWMTitleText1 {
+    font-size: 6vw;
+  }
+
+  .WWMTitleText2 {
+    font-size: 6vw;
+  }
+
+  .WWMItem h2 {
+    font-size: 1.5rem;
+  }
+
+  .cardDescription {
+    font-size: 1rem;
+  }
+
+  .cardField {
+    padding: 1rem 1rem 1rem;
+  }
+
+  .WorkWithMeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .WWMContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .itemBorder {
+    width: 100%;
+  }
+}

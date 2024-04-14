@@ -1,135 +1,185 @@
 
 .titleAM span {
-    color: #f5f5f5;
-    font-size: 3rem;
-    font-weight: 400;
-    margin: 0 20rem 0 3rem;
+  color: #f5f5f5;
+  font-size: 3rem;
+  font-weight: 400;
+  margin: 0 20rem 0 3rem;
 }
 
 .aboutMeContainer {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin: 0 0 0 0;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 0 0 0;
+  align-items: center;
 }
+
 .aboutMeContent {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    margin: 0 0 0 0;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0 0 0 0;
+  flex-wrap: wrap;
 }
 
 .aboutMeContainer p {
-    color: #f5f5f5;
-    font-size: 2rem;
-    font-weight: 400;
-    margin: 0 0 0 4rem;
-    font-family: Gilroy-Medium;
+  color: #f5f5f5;
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0 0 0 4rem;
+  font-family: Gilroy-Medium;
 }
 
 .aboutMeContainer h2 {
-    color: #f5f5f5;
-    font-size: 1.3vw;
-    font-weight: 400;
-    margin: 0 0 0 4rem;
-    font-family: Gilroy-Medium;
+  color: #f5f5f5;
+  font-size: 1.3vw;
+  font-weight: 400;
+  margin: 0 0 0 4rem;
+  font-family: Gilroy-Medium;
 }
 
 .subtitleAM {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .SoftContainer {
-    display: flex;
-    border-color: #8BFFFA;
-    border-width: 1px;
-    border-style: solid;
-    border-radius: 1rem;
-    align-items: center;
-    padding:2rem 1rem 1.5rem 1rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    width: 100%;
+  display: flex;
+  border-color: #8BFFFA;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 1rem;
+  align-items: center;
+  padding: 2rem 1rem 1.5rem 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
 }
 
-.SoftContent span{
-    font-size: 2vw;
-    font-weight: 500;
-    -webkit-text-stroke-color: #8BFFFA;
-    -webkit-text-stroke-width: 1px;
-    line-height: 1rem;
-    margin: 0 0 0 1rem;
+.SoftContent span {
+  font-size: 2vw;
+  font-weight: 500;
+  -webkit-text-stroke-color: #8BFFFA;
+  -webkit-text-stroke-width: 1px;
+  line-height: 1rem;
+  margin: 0 0 0 1rem;
 }
 
-.SoftContent p{
-    margin: 0 0 0 1.7rem;
+.SoftContent p {
+  margin: 0 0 0 1.7rem;
 }
 
 .rightAM {
-    display: flex;
-    align-items: center;
-    width: 50%;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  flex-wrap: wrap;
 }
 
 .leftAM {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  flex-wrap: wrap;
 }
 
 
-
 @media screen and (max-width: 2000px) {
-    .titleAM span {
-        font-size: 2.4rem; /* Увеличиваем размер шрифта заголовка */
-        margin: 0 10rem 0 1rem; /* Меняем отступы */
-    }
+  .titleAM span {
+    font-size: 2.4rem; /* Увеличиваем размер шрифта заголовка */
+    margin: 0 10rem 0 1rem; /* Меняем отступы */
+  }
 
-    .aboutMeContainer p {
-        font-size: 1.5vw; /* Увеличиваем размер шрифта параграфов */
-        margin: 0 0 0 2rem; /* Меняем отступы */
-    }
+  .aboutMeContainer p {
+    font-size: 1.5vw; /* Увеличиваем размер шрифта параграфов */
+    margin: 0 0 0 2rem; /* Меняем отступы */
+  }
 
-    .aboutMeContainer h2 {
-        font-size: 2vw; /* Увеличиваем размер шрифта заголовков */
-        margin: 0 0 0 2rem; /* Меняем отступы */
-    }
+  .aboutMeContainer h2 {
+    font-size: 2vw; /* Увеличиваем размер шрифта заголовков */
+    margin: 0 0 0 2rem; /* Меняем отступы */
+  }
 
-    .SoftContent span {
-        font-size: 3rem; /* Увеличиваем размер шрифта заголовка */
-    }
+  .SoftContent span {
+    font-size: 3rem; /* Увеличиваем размер шрифта заголовка */
+  }
 
-    .SoftContent p {
-        margin: 0 0 0 1rem; /* Меняем отступы */
-    }
+  .SoftContent p {
+    margin: 0 0 0 1rem; /* Меняем отступы */
+  }
 }
 
 
 @media screen and (max-width: 1300px) {
-    .titleAM span {
-        font-size: 2.4rem; /* Увеличиваем размер шрифта заголовка */
-        margin: 0 10rem 0 1rem; /* Меняем отступы */
-    }
+  .titleAM span {
+    font-size: 2.4rem; /* Увеличиваем размер шрифта заголовка */
+    margin: 0 10rem 0 1rem; /* Меняем отступы */
+  }
 
-    .aboutMeContainer p {
-        font-size: 2vw; /* Увеличиваем размер шрифта параграфов */
-        margin: 0 0 0 2rem; /* Меняем отступы */
-    }
+  .aboutMeContainer p {
+    font-size: 2vw; /* Увеличиваем размер шрифта параграфов */
+    margin: 0 0 0 2rem; /* Меняем отступы */
+  }
 
-    .aboutMeContainer h2 {
-        font-size: 2.5vw; /* Увеличиваем размер шрифта заголовков */
-        margin: 0 0 0 2rem; /* Меняем отступы */
-    }
+  .aboutMeContainer h2 {
+    font-size: 2.5vw; /* Увеличиваем размер шрифта заголовков */
+    margin: 0 0 0 2rem; /* Меняем отступы */
+  }
 
-    .SoftContent span {
-        font-size: 2.5vw; /* Увеличиваем размер шрифта заголовка */
-    }
+  .SoftContent span {
+    font-size: 2.5vw; /* Увеличиваем размер шрифта заголовка */
+  }
 
-    .SoftContent p {
-        margin: 0 0 0 1vw; /* Меняем отступы */
-    }
+  .SoftContent p {
+    margin: 0 0 0 1vw; /* Меняем отступы */
+  }
+}
+
+@media screen and (max-width: 869px) {
+  .pageTitle h2 {
+    flex-wrap: wrap;
+  }
+
+  .titleAM span {
+    font-size: 2rem; /* Увеличиваем размер шрифта заголовка */
+    margin: 0 10rem 0 1rem; /* Меняем отступы */
+  }
+
+  .aboutMeContainer p {
+    font-size: 2vw; /* Увеличиваем размер шрифта параграфов */
+    margin: 0 0 0 2rem; /* Меняем отступы */
+  }
+
+  .aboutMeContainer h2 {
+    font-size: 2.5vw; /* Увеличиваем размер шрифта заголовков */
+    margin: 0 0 0 2rem; /* Меняем отступы */
+  }
+
+  .SoftContent span {
+    font-size: 2rem; /* Увеличиваем размер шрифта заголовка */
+  }
+
+  .SoftContent p {
+    margin: 0 0 0 0.5rem; /* Меняем отступы */
+    font-size: 1rem;
+  }
+
+  .aboutMeContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .rightAM,
+  .leftAM {
+    width: 100%;
+  }
+
+  .subtitleAM p {
+    font-size: calc(1rem + 1vw);
+  }
+  .subtitleAM h2 {
+    font-size: calc(1rem + 1vw);
+  }
 }
