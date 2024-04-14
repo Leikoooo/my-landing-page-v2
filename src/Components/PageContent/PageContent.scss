@@ -25,14 +25,11 @@
   margin: 2rem 0 1rem 0;
 }
 
-
-
 .BYDWC {
   line-height: 1rem;
   color: transparent;
   -webkit-text-stroke-color: #e2e2e2;
   -webkit-text-stroke-width: 2px;
-
 }
 
 .pageTitle span {
@@ -57,7 +54,13 @@
   }
 
   .pageTitleBYDWC h2 {
-    font-size: calc(7vw);
+    font-size: calc(6vw + 1rem);
     line-height: 100%;
+
+  }
+
+  .BYDWC {
+    color: white;
+    -webkit-text-stroke-color: transparent;
   }
 }

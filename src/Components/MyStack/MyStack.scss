@@ -91,8 +91,9 @@ $bg-img: url("../../../public/images/backStack.svg");
 
 @media screen and (max-width: 869px) {
   .blockTitle {
-    font-size: 2.2rem;
+    font-size: 1rem;
   }
+
   .board {
     grid-template-columns: repeat(auto-fill, minmax(140px, 2fr));
     padding: 0;
@@ -123,7 +124,7 @@ $bg-img: url("../../../public/images/backStack.svg");
     margin: 0;
   }
   .blockTitle span {
-    font-size: 6vw;
+    font-size: calc(1rem + 3vw);
   }
 }
 
